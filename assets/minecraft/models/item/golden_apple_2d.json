@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"1": "item/food_particles/golden_apple",
+		"particle": "item/food_particles/golden_apple",
+		"layer0": "item/golden_apple"
+	}
+}

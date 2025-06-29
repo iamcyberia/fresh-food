@@ -1,0 +1,19 @@
+{
+    "pack": {
+        "description": "§63D models and eating animations!",
+        "pack_format": 46,
+        "supported_formats": {"min_inclusive": 46, "max_inclusive": 99}
+    },
+  "overlays": {
+        "entries": [
+            {
+                "directory": "1.21.6",
+                "formats": [56, 99]
+            },
+            {
+                "directory": "1.21.4_1.21.5",
+                "formats": [46, 55]
+            }
+        ]
+    }
+}

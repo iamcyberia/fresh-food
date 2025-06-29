@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"1": "item/food_particles/sweet_berries",
+		"layer0": "item/sweet_berries",
+		"particle": "item/food_particles/sweet_berries"
+	}
+}

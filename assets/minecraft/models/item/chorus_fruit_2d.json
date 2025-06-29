@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"1": "item/food_particles/chorus_fruit",
+		"layer0": "item/chorus_fruit",
+		"particle": "item/food_particles/chorus_fruit"
+	}
+}

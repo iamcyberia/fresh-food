@@ -1,0 +1,10 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"1": "item/food_particles/mushroom_stew",
+		"particle": "item/food_particles/mushroom_stew",
+		"layer0": "item/mushroom_stew"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"1": "item/food_particles/beetroot_soup",
+		"particle": "item/food_particles/beetroot_soup",
+		"layer0": "item/beetroot_soup"
+	}
+}

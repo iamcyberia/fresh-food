@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"1": "item/food_particles/glow_berries",
+		"layer0": "item/glow_berries",
+		"particle": "item/food_particles/glow_berries"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"1": "item/food_particles/golden_carrot",
+		"layer0": "item/golden_carrot",
+		"particle": "item/food_particles/golden_carrot"
+	}
+}

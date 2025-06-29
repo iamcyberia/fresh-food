@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"1": "item/food_particles/melon_slice",
+		"layer0": "item/melon_slice",
+		"particle": "item/food_particles/melon_slice"
+	}
+}
