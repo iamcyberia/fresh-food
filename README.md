@@ -1,4 +1,6 @@
-![Fresh Food](https://cdn.modrinth.com/data/cached_images/d6502b37d1e6d606c52c2e63fd5acf0312c2f67c.png)
+<p align="center">
+    <img src="https://cdn.modrinth.com/data/cached_images/d6502b37d1e6d606c52c2e63fd5acf0312c2f67c.png">
+</p>
 
 <hr>
 
