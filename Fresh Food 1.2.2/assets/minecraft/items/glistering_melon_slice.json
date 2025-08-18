@@ -1,0 +1,44 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "fixed",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Glistering Melon Slice",
+                "Plated Glistering Melon Slice",
+                "Glistering Melon Slice on Plate",
+                "Glistering Melon Slice on a Plate",
+                "Glistering Melon Slice Plate",
+                "Glistering Melon Slice Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_glistering_melon_slice_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/glistering_melon_slice"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/glistering_melon_slice_3d"
+    }
+  }
+}
