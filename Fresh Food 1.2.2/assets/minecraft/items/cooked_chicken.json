@@ -29,7 +29,7 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:item/cooked_chicken_2d"
+            "model": "minecraft:item/cooked_chicken"
           }
         }
       },

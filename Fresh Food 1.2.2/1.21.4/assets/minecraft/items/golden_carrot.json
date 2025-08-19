@@ -11,7 +11,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/golden_carrot_2d"
+          "model": "minecraft:item/golden_carrot"
         }
       }
     ],

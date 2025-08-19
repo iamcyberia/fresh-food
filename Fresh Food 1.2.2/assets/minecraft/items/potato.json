@@ -29,7 +29,7 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:item/potato_2d"
+            "model": "minecraft:item/potato"
           }
         }
       },

@@ -11,7 +11,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/cake_2d"
+          "model": "minecraft:item/cake"
         }
       }
     ],

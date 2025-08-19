@@ -11,7 +11,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/rotten_flesh_2d"
+          "model": "minecraft:item/rotten_flesh"
         }
       }
     ],

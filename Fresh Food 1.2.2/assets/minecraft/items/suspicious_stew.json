@@ -372,7 +372,7 @@
             ],
             "fallback": {
               "type": "minecraft:model",
-              "model": "item/suspicious_stew_2d"
+              "model": "item/suspicious_stew"
             }
           }
         }
@@ -2294,7 +2294,7 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/suspicious_stew_2d"
+        "model": "minecraft:item/suspicious_stew"
       }
     }
   }

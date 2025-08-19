@@ -11,7 +11,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/milk_bucket_2d"
+          "model": "minecraft:item/milk_bucket"
         }
       }
     ],
@@ -103,14 +103,14 @@
                 "threshold": 31.5,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "item/milk_bucket"
+                  "model": "item/milk_bucket_3d"
                 }
               }
             ]
       },
       "on_false": {
         "type": "minecraft:model",
-        "model": "item/milk_bucket"
+        "model": "item/milk_bucket_3d"
       }
     }
   }
