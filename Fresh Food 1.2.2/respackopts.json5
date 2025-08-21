@@ -3,6 +3,7 @@
     version: 13,
     capabilities: ["FileFilter", "DirFilter"],
     conf: {
-        Outlines: true
+        Outlines: true,
+        UseModelsWhenDropped: false
     }
 }
