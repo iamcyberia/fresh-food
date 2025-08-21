@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/spider_eye"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "minecraft:item/spider_eye_3d" },
+    { "predicate": { "eating": 1.0, "eat": 0.10 }, "model": "minecraft:item/eatinganimation/spider_eye/spider_eye_eat_0" },
+    { "predicate": { "eating": 1.0, "eat": 0.30 }, "model": "minecraft:item/eatinganimation/spider_eye/spider_eye_eat_1" },
+    { "predicate": { "eating": 1.0, "eat": 0.50 }, "model": "minecraft:item/eatinganimation/spider_eye/spider_eye_eat_2" },
+    { "predicate": { "eating": 1.0, "eat": 0.75 }, "model": "minecraft:item/eatinganimation/spider_eye/spider_eye_eat_3" },
+    { "predicate": { "eating": 1.0, "eat": 0.90 }, "model": "minecraft:item/eatinganimation/spider_eye/spider_eye_eat_4" },
+    { "predicate": { "pommel:is_ground": 1.0 }, "model": "minecraft:item/spider_eye_3d" }
+  ]
+}

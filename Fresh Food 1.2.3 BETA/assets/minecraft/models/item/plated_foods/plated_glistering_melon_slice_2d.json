@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/glistering_melon_slice"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "minecraft:item/plated_foods/plated_glistering_melon_slice_3d" },
+    { "predicate": { "pommel:is_fixed": 1.0}, "model": "minecraft:item/plated_foods/plated_glistering_melon_slice_3d" }
+
+       ]
+}

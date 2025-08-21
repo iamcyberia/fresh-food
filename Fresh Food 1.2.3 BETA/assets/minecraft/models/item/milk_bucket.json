@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/milk_bucket"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "minecraft:item/milk_bucket_3d" },
+
+    { "predicate": { "pommel:is_ground": 1.0 }, "model": "minecraft:item/milk_bucket_3d" },
+
+    { "predicate": { "eating": 1.0, "eat": 0.05 }, "model": "minecraft:item/milk_bucket" },
+    { "predicate": { "eating": 1.0, "eat": 0.05, "pommel:is_held": 1.0 }, "model": "minecraft:item/eatinganimation/milk/milk_bucket_drink_0" },
+
+    { "predicate": { "eating": 1.0, "eat": 0.15 }, "model": "minecraft:item/milk_bucket" },
+    { "predicate": { "eating": 1.0, "eat": 0.15, "pommel:is_held": 1.0 }, "model": "minecraft:item/eatinganimation/milk/milk_bucket_drink_1" },
+
+    { "predicate": { "eating": 1.0, "eat": 0.27 }, "model": "minecraft:item/milk_bucket" },
+    { "predicate": { "eating": 1.0, "eat": 0.27, "pommel:is_held": 1.0 }, "model": "minecraft:item/eatinganimation/milk/milk_bucket_drink_2" },
+
+    { "predicate": { "eating": 1.0, "eat": 0.38 }, "model": "minecraft:item/milk_bucket" },
+    { "predicate": { "eating": 1.0, "eat": 0.38, "pommel:is_held": 1.0 }, "model": "minecraft:item/eatinganimation/milk/milk_bucket_drink_3" },
+
+    { "predicate": { "eating": 1.0, "eat": 0.50 }, "model": "minecraft:item/milk_bucket" },
+    { "predicate": { "eating": 1.0, "eat": 0.50, "pommel:is_held": 1.0 }, "model": "minecraft:item/eatinganimation/milk/milk_bucket_drink_4" },
+
+    { "predicate": { "eating": 1.0, "eat": 0.62 }, "model": "minecraft:item/milk_bucket" },
+    { "predicate": { "eating": 1.0, "eat": 0.62, "pommel:is_held": 1.0 }, "model": "minecraft:item/eatinganimation/milk/milk_bucket_drink_5" },
+
+    { "predicate": { "eating": 1.0, "eat": 0.74 }, "model": "minecraft:item/milk_bucket" },
+    { "predicate": { "eating": 1.0, "eat": 0.74, "pommel:is_held": 1.0 }, "model": "minecraft:item/eatinganimation/milk/milk_bucket_drink_6" },
+
+    { "predicate": { "eating": 1.0, "eat": 0.84 }, "model": "minecraft:item/milk_bucket" },
+    { "predicate": { "eating": 1.0, "eat": 0.84, "pommel:is_held": 1.0 }, "model": "minecraft:item/eatinganimation/milk/milk_bucket_drink_7" },
+
+    { "predicate": { "eating": 1.0, "eat": 0.91 }, "model": "minecraft:item/milk_bucket" },
+    { "predicate": { "eating": 1.0, "eat": 0.91, "pommel:is_held": 1.0 }, "model": "minecraft:item/eatinganimation/milk/milk_bucket_drink_8" },
+
+    { "predicate": { "eating": 1.0, "eat": 0.96 }, "model": "minecraft:item/milk_bucket" },
+    { "predicate": { "eating": 1.0, "eat": 0.96, "pommel:is_held": 1.0 }, "model": "minecraft:item/eatinganimation/milk/milk_bucket_drink_9" },
+
+    { "predicate": { "eating": 1.0, "eat": 1.00 }, "model": "minecraft:item/milk_bucket" },
+    { "predicate": { "eating": 1.0, "eat": 1.00, "pommel:is_held": 1.0 }, "model": "minecraft:item/eatinganimation/milk/milk_bucket_drink_10" }
+  ]
+}

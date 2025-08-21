@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/cooked_salmon"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "minecraft:item/cooked_salmon_3d" },
+    { "predicate": { "eating": 1.0, "eat": 0.05 }, "model": "minecraft:item/eatinganimation/cooked_salmon/cooked_salmon_eat_0" },
+    { "predicate": { "eating": 1.0, "eat": 0.20 }, "model": "minecraft:item/eatinganimation/cooked_salmon/cooked_salmon_eat_1" },
+    { "predicate": { "eating": 1.0, "eat": 0.35 }, "model": "minecraft:item/eatinganimation/cooked_salmon/cooked_salmon_eat_2" },
+    { "predicate": { "eating": 1.0, "eat": 0.50 }, "model": "minecraft:item/eatinganimation/cooked_salmon/cooked_salmon_eat_3" },
+    { "predicate": { "eating": 1.0, "eat": 0.70 }, "model": "minecraft:item/eatinganimation/cooked_salmon/cooked_salmon_eat_4" },
+    { "predicate": { "eating": 1.0, "eat": 0.90 }, "model": "minecraft:item/eatinganimation/cooked_salmon/cooked_salmon_eat_5" },
+    { "predicate": { "pommel:is_ground": 1.0 }, "model": "minecraft:item/cooked_salmon_3d" }
+  ]
+}

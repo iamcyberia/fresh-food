@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/mushroom_stew"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "minecraft:item/mushroom_stew_3d" },
+    { "predicate": { "eating": 1.0, "eat": 0.05 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_0" },
+    { "predicate": { "eating": 1.0, "eat": 0.14 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_1" },
+    { "predicate": { "eating": 1.0, "eat": 0.23 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_2" },
+    { "predicate": { "eating": 1.0, "eat": 0.32 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_3" },
+    { "predicate": { "eating": 1.0, "eat": 0.41 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_4" },
+    { "predicate": { "eating": 1.0, "eat": 0.50 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_5" },
+    { "predicate": { "eating": 1.0, "eat": 0.59 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_6" },
+    { "predicate": { "eating": 1.0, "eat": 0.68 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_7" },
+    { "predicate": { "eating": 1.0, "eat": 0.77 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_8" },
+    { "predicate": { "eating": 1.0, "eat": 0.86 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_9" },
+    { "predicate": { "eating": 1.0, "eat": 0.95 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_10" },
+    { "predicate": { "eating": 1.0, "eat": 0.98 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_11" },
+    { "predicate": { "eating": 1.0, "eat": 1.00 }, "model": "minecraft:item/eatinganimation/mushroom_stew/mushroom_stew_eat_12" }
+  ]
+}

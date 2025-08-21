@@ -1,0 +1,4 @@
+{
+  "condition": "Outlines",
+  "fallback": "assets/minecraft/models/item/no_outline/glow_berries_3d.json"
+}

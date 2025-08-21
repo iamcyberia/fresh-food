@@ -1,0 +1,8 @@
+{
+    id: "FreshFood",
+    version: 12,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+        Outlines: true
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/beetroot_soup"
+  },
+  "overrides": [
+    { "predicate": { "pommel:is_held": 1.0 }, "model": "minecraft:item/beetroot_soup_3d" },
+    { "predicate": { "eating": 1.0, "eat": 0.04 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_0" },
+    { "predicate": { "eating": 1.0, "eat": 0.12 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_1" },
+    { "predicate": { "eating": 1.0, "eat": 0.19 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_2" },
+    { "predicate": { "eating": 1.0, "eat": 0.27 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_3" },
+    { "predicate": { "eating": 1.0, "eat": 0.35 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_4" },
+    { "predicate": { "eating": 1.0, "eat": 0.42 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_5" },
+    { "predicate": { "eating": 1.0, "eat": 0.50 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_6" },
+    { "predicate": { "eating": 1.0, "eat": 0.58 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_7" },
+    { "predicate": { "eating": 1.0, "eat": 0.65 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_8" },
+    { "predicate": { "eating": 1.0, "eat": 0.73 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_9" },
+    { "predicate": { "eating": 1.0, "eat": 0.81 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_10" },
+    { "predicate": { "eating": 1.0, "eat": 0.88 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_11" },
+    { "predicate": { "eating": 1.0, "eat": 0.96 }, "model": "minecraft:item/eatinganimation/beetroot_soup/beetroot_soup_eat_12" }
+        
+
+       ]
+}
