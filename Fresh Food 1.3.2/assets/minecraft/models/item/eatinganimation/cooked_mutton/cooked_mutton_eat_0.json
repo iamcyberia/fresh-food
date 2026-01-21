@@ -1,0 +1,86 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/cooked_mutton_3d",
+		"particle": "item/cooked_mutton_3d"
+	},
+	"elements": [
+		{
+			"name": "raw_mutton1",
+			"from": [5.5, 0.5, 3.5],
+			"to": [10.5, 2.5, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, 0.5, -4.5]},
+			"faces": {
+				"north": {"uv": [0, 9, 5, 11], "texture": "#0"},
+				"east": {"uv": [0, 7, 7, 9], "texture": "#0"},
+				"south": {"uv": [5, 9, 10, 11], "texture": "#0"},
+				"west": {"uv": [7, 7, 14, 9], "texture": "#0"},
+				"up": {"uv": [5, 7, 0, 0], "texture": "#0"},
+				"down": {"uv": [10, 0, 5, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "raw_mutton2",
+			"from": [6, 1, 7.5],
+			"to": [10, 2, 13.5],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.5, 0.5, 7.5]},
+			"faces": {
+				"east": {"uv": [0, 12, 6, 13], "texture": "#0"},
+				"south": {"uv": [6, 11, 10, 12], "texture": "#0"},
+				"west": {"uv": [0, 11, 6, 12], "texture": "#0"},
+				"up": {"uv": [10, 0, 14, 6], "texture": "#0"},
+				"down": {"uv": [10, 9, 14, 15], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 5.25, 2.25],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 5.25, 2.25],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"firstperson_righthand": {
+			"rotation": [-2, 94, -8],
+			"translation": [-1.25, 10, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-2, 94, -8],
+			"translation": [-1.25, 10, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [30, -45, 0],
+			"translation": [0.25, 9.25, 0],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"head": {
+			"rotation": [0, -180, 0],
+			"translation": [1, 18.25, 0.75],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-90, -90, 0],
+			"translation": [2, -1.25, -9.5],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "raw_mutton",
+			"origin": [8, 0, 9],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

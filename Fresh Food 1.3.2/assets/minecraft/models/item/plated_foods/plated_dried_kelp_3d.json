@@ -1,0 +1,142 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/dried_kelp_3d",
+		"2": "item/plated_food/plate_3d",
+		"particle": "item/dried_kelp"
+	},
+	"elements": [
+		{
+			"name": "dried_kelp1",
+			"from": [9.5, 1, 4.25],
+			"to": [10.5, 1.1, 11.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.5, 1, 4.25]},
+			"faces": {
+				"north": {"uv": [6, 11, 7, 12], "texture": "#0"},
+				"east": {"uv": [4, 6, 11, 7], "texture": "#0"},
+				"south": {"uv": [7, 11, 8, 12], "texture": "#0"},
+				"west": {"uv": [4, 7, 11, 8], "texture": "#0"},
+				"up": {"uv": [1, 16, 0, 9], "texture": "#0"},
+				"down": {"uv": [2, 9, 1, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dried_kelp2",
+			"from": [5.5, 1, 5.25],
+			"to": [6.5, 1.1, 11.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.5, 1, 8.25]},
+			"faces": {
+				"north": {"uv": [8, 11, 9, 12], "texture": "#0"},
+				"east": {"uv": [4, 8, 10, 9], "texture": "#0"},
+				"south": {"uv": [9, 11, 10, 12], "texture": "#0"},
+				"west": {"uv": [8, 4, 14, 5], "texture": "#0"},
+				"up": {"uv": [5, 15, 4, 9], "texture": "#0"},
+				"down": {"uv": [6, 9, 5, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dried_kelp3",
+			"from": [6.5, 1.1, 4.25],
+			"to": [7.5, 1.2, 12.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 1, 4.25]},
+			"faces": {
+				"north": {"uv": [10, 11, 11, 12], "texture": "#0"},
+				"east": {"uv": [8, 0, 16, 1], "texture": "#0"},
+				"south": {"uv": [11, 11, 12, 12], "texture": "#0"},
+				"west": {"uv": [8, 1, 16, 2], "texture": "#0"},
+				"up": {"uv": [3, 16, 2, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dried_kelp4",
+			"from": [8.5, 1.1, 5.25],
+			"to": [10.5, 1.2, 11.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 1, 4.25]},
+			"faces": {
+				"north": {"uv": [6, 10, 8, 11], "texture": "#0"},
+				"east": {"uv": [8, 5, 14, 6], "texture": "#0"},
+				"south": {"uv": [8, 10, 10, 11], "texture": "#0"},
+				"west": {"uv": [6, 9, 12, 10], "texture": "#0"},
+				"up": {"uv": [6, 6, 4, 0], "texture": "#0"},
+				"down": {"uv": [8, 0, 6, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dried_kelp5",
+			"from": [6.5, 1, 4.25],
+			"to": [8.5, 1.1, 12.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 1, 4.25]},
+			"faces": {
+				"north": {"uv": [10, 8, 12, 9], "texture": "#0"},
+				"east": {"uv": [8, 2, 16, 3], "texture": "#0"},
+				"south": {"uv": [10, 10, 12, 11], "texture": "#0"},
+				"west": {"uv": [8, 3, 16, 4], "texture": "#0"},
+				"up": {"uv": [2, 8, 0, 0], "texture": "#0"},
+				"down": {"uv": [4, 0, 2, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "plate",
+			"from": [2, 0, 2],
+			"to": [14, 1, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"north": {"uv": [0, 6, 6, 6.5], "texture": "#2"},
+				"east": {"uv": [6, 0, 12, 0.5], "texture": "#2"},
+				"south": {"uv": [6, 0.5, 12, 1], "texture": "#2"},
+				"west": {"uv": [6, 1, 12, 1.5], "texture": "#2"},
+				"up": {"uv": [6, 6, 0, 0], "texture": "#2"},
+				"down": {"uv": [6, 1.5, 12, 7.5], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [70, 90, 0],
+			"translation": [0, 3.75, 2.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, -90, 0],
+			"translation": [0, 3.75, 2.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -128, 0],
+			"translation": [0, 6.5, 1.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -128, 0],
+			"translation": [0, 6.5, 1.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"translation": [0, 14.4, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 90, 0],
+			"translation": [0, 0, -14.08],
+			"scale": [2.01, 2.01, 2.01]
+		}
+	},
+	"groups": [
+		{
+			"name": "dried_kelp",
+			"origin": [7.5, 4, 4.25],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		},
+		5
+	]
+}

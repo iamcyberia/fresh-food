@@ -1,0 +1,45 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/bread_3d",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/bread_3d",
+		"particle": "item/bread"
+	},
+	"elements": [
+		{
+			"from": [5, 1, 2.5],
+			"to": [11, 4, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0, 0.5]},
+			"faces": {
+				"north": {"uv": [6, 3, 9, 4.5], "texture": "#0"},
+				"east": {"uv": [0, 6, 5.5, 7.5], "texture": "#0"},
+				"south": {"uv": [6, 1.5, 9, 3], "texture": "#0"},
+				"west": {"uv": [6, 0, 11.5, 1.5], "texture": "#0"},
+				"up": {"uv": [5.5, 3, 0, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [5.5, 3, 0, 6], "rotation": 270, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 4.25, 2.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 4.25, 2.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-8, 95, 0],
+			"translation": [4.5, 6.25, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-8, 95, 0],
+			"translation": [4.5, 6.25, 0.5]
+		}
+	}
+}

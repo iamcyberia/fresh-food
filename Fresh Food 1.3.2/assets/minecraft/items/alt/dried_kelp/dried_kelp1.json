@@ -1,0 +1,145 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Dried Kelp",
+                "Plated Dried Kelp",
+                "Dried Kelp on Plate",
+                "Dried Kelp on a Plate",
+                "Dried Kelp Plate",
+                "Dried Kelp Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_dried_kelp_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/dried_kelp"
+          }
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "head",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Dried Kelp",
+                "Plated Dried Kelp",
+                "Dried Kelp on Plate",
+                "Dried Kelp on a Plate",
+                "Dried Kelp Plate",
+                "Dried Kelp Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_dried_kelp_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/dried_kelp/dried_kelp_eat_0"
+                  }
+                },
+                {
+                  "threshold": 5.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/dried_kelp/dried_kelp_eat_1"
+                  }
+                },
+                {
+                  "threshold": 10.66,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/dried_kelp/dried_kelp_eat_2"
+                  }
+                },
+                {
+                  "threshold": 15.5,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/dried_kelp_3d"
+                  }
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/dried_kelp_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Dried Kelp",
+                "Plated Dried Kelp",
+                "Dried Kelp on Plate",
+                "Dried Kelp on a Plate",
+                "Dried Kelp Plate",
+                "Dried Kelp Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_dried_kelp"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/dried_kelp"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/dried_kelp"
+    }
+  }
+}

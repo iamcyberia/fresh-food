@@ -1,9 +1,0 @@
-{
-    id: "FreshFood",
-    version: 13,
-    capabilities: ["FileFilter", "DirFilter"],
-    conf: {
-        Outlines: true,
-        UseModelsWhenDropped: false
-    }
-}

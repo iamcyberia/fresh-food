@@ -1,0 +1,152 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Cooked Rabbit",
+                "Plated Cooked Rabbit",
+                "Cooked Rabbit on Plate",
+                "Cooked Rabbit on a Plate",
+                "Cooked Rabbit Plate",
+                "Cooked Rabbit Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_cooked_rabbit_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cooked_rabbit"
+          }
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "head",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Cooked Rabbit",
+                "Plated Cooked Rabbit",
+                "Cooked Rabbit on Plate",
+                "Cooked Rabbit on a Plate",
+                "Cooked Rabbit Plate",
+                "Cooked Rabbit Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_cooked_rabbit_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_rabbit/cooked_rabbit_eat_0"
+                  }
+                },
+                {
+                  "threshold": 8,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_rabbit/cooked_rabbit_eat_1"
+                  }
+                },
+                {
+                  "threshold": 16,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_rabbit/cooked_rabbit_eat_2"
+                  }
+                },
+                {
+                  "threshold": 24,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_rabbit/cooked_rabbit_eat_3"
+                  }
+                },
+                {
+                  "threshold": 31.5,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/cooked_rabbit_3d"
+                  }
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cooked_rabbit_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Cooked Rabbit",
+                "Plated Cooked Rabbit",
+                "Cooked Rabbit on Plate",
+                "Cooked Rabbit on a Plate",
+                "Cooked Rabbit Plate",
+                "Cooked Rabbit Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_cooked_rabbit"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cooked_rabbit"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cooked_rabbit"
+    }
+  }
+}

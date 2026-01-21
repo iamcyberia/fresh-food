@@ -1,0 +1,4 @@
+{
+  "condition": "UseModelsWhenDropped",
+  "fallback": "assets/minecraft/items/2d_sprites/carrot.json"
+}

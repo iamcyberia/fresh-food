@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/apple/apple1.json",
+        "assets/minecraft/items/alt/apple/apple2.json",
+        "assets/minecraft/items/alt/apple/apple3.json",
+        "assets/minecraft/items/alt/apple/apple4.json",
+        "assets/minecraft/items/alt/apple/apple5.json",
+        "assets/minecraft/items/alt/apple/apple6.json",
+        "assets/minecraft/items/alt/apple/apple7.json"
+    ]
+}

@@ -1,0 +1,152 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Cooked Porkchop",
+                "Plated Cooked Porkchop",
+                "Cooked Porkchop on Plate",
+                "Cooked Porkchop on a Plate",
+                "Cooked Porkchop Plate",
+                "Cooked Porkchop Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_cooked_porkchop_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cooked_porkchop"
+          }
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "head",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Cooked Porkchop",
+                "Plated Cooked Porkchop",
+                "Cooked Porkchop on Plate",
+                "Cooked Porkchop on a Plate",
+                "Cooked Porkchop Plate",
+                "Cooked Porkchop Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_cooked_porkchop_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_porkchop/cooked_porkchop_eat_0"
+                  }
+                },
+                {
+                  "threshold": 8,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_porkchop/cooked_porkchop_eat_1"
+                  }
+                },
+                {
+                  "threshold": 16,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_porkchop/cooked_porkchop_eat_2"
+                  }
+                },
+                {
+                  "threshold": 24,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_porkchop/cooked_porkchop_eat_3"
+                  }
+                },
+                {
+                  "threshold": 31.5,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/cooked_porkchop_3d"
+                  }
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cooked_porkchop_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Cooked Porkchop",
+                "Plated Cooked Porkchop",
+                "Cooked Porkchop on Plate",
+                "Cooked Porkchop on a Plate",
+                "Cooked Porkchop Plate",
+                "Cooked Porkchop Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_cooked_porkchop"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cooked_porkchop"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cooked_porkchop"
+    }
+  }
+}

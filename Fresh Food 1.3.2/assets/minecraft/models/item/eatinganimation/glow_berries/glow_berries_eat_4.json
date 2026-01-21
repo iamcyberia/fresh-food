@@ -1,0 +1,209 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/eatinganimation/glow_berries/glow_berries_eat_1",
+		"particle": "item/food_particles/glow_berries"
+	},
+	"elements": [
+		{
+			"name": "small_berry",
+			"from": [8, 3, 11],
+			"to": [10, 4, 13],
+			"light_emission": 15,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [6, 1, 12]},
+			"faces": {
+				"north": {"uv": [5, 5.5, 6, 6], "texture": "#0"},
+				"east": {"uv": [5, 5.5, 6, 6], "texture": "#0"},
+				"south": {"uv": [5, 5.5, 6, 6], "texture": "#0"},
+				"west": {"uv": [5, 5.5, 6, 6], "texture": "#0"},
+				"up": {"uv": [6.5, 7, 5.5, 6], "texture": "#0"},
+				"down": {"uv": [3.5, 2.5, 2.5, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "big_berry",
+			"from": [8, 3, 4.8],
+			"to": [10, 4, 6.8],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 4]},
+			"faces": {
+				"north": {"uv": [2.5, 2, 3.5, 2.5], "texture": "#0"},
+				"east": {"uv": [2.5, 2, 3.5, 2.5], "texture": "#0"},
+				"south": {"uv": [2.5, 2, 3.5, 2.5], "texture": "#0"},
+				"west": {"uv": [2.5, 2, 3.5, 2.5], "texture": "#0"},
+				"up": {"uv": [1.5, 5.5, 0.5, 4.5], "texture": "#0"},
+				"down": {"uv": [3.5, 2.5, 2.5, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "leaf1",
+			"from": [7.9999, 8.4999, 6.4999],
+			"to": [10.0001, 8.5001, 7.5001],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 6.18198, 7.88909]},
+			"faces": {
+				"north": {"uv": [0.5, 7.5, 1.5, 8], "texture": "#0"},
+				"east": {"uv": [8, 0.5, 8.5, 1], "texture": "#0"},
+				"south": {"uv": [7.5, 1, 8.5, 1.5], "texture": "#0"},
+				"west": {"uv": [1, 8, 1.5, 8.5], "texture": "#0"},
+				"up": {"uv": [8.5, 2, 7.5, 1.5], "texture": "#0"},
+				"down": {"uv": [8.5, 2, 7.5, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "leaf2",
+			"from": [7.4999, 8.4999, 7.4999],
+			"to": [10.5001, 8.5001, 9.5001],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [9, 6.18198, 7.88909]},
+			"faces": {
+				"north": {"uv": [7, 4.5, 8.5, 5], "texture": "#0"},
+				"east": {"uv": [5.5, 3.5, 6.5, 4], "texture": "#0"},
+				"south": {"uv": [7, 5, 8.5, 5.5], "texture": "#0"},
+				"west": {"uv": [7, 6.5, 8, 7], "texture": "#0"},
+				"up": {"uv": [7.5, 1, 6, 0], "texture": "#0"},
+				"down": {"uv": [7.5, 1, 6, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "leaf3",
+			"from": [7.4999, 7.70698, 10.26434],
+			"to": [10.5001, 7.70718, 15.26454],
+			"rotation": {"angle": 45, "axis": "x", "origin": [9, 7.70708, 10.26444]},
+			"faces": {
+				"up": {"uv": [5.5, 4, 4, 2], "texture": "#0"},
+				"down": {"uv": [3.5, 4, 2, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "stem1",
+			"from": [8.5, 6.5, 7.5],
+			"to": [9.5, 8.5, 8.5],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [9, 6.18198, 7.88909]},
+			"faces": {
+				"north": {"uv": [6, 7, 6.5, 8], "texture": "#0"},
+				"east": {"uv": [7, 7, 7.5, 8], "texture": "#0"},
+				"south": {"uv": [0, 7.5, 0.5, 8.5], "texture": "#0"},
+				"west": {"uv": [7.5, 0, 8, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "stem2",
+			"from": [8.499, 3.999, 4.999],
+			"to": [9.501, 8.001, 6.001],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 4, 5]},
+			"faces": {
+				"north": {"uv": [6.5, 3.5, 7, 5.5], "texture": "#0"},
+				"east": {"uv": [6.5, 5.5, 7, 7.5], "texture": "#0"},
+				"south": {"uv": [7, 2, 7.5, 4], "texture": "#0"},
+				"west": {"uv": [3.5, 7, 4, 9], "texture": "#0"},
+				"up": {"uv": [8, 3, 7.5, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "stem3",
+			"from": [8.51, 3.23826, 10.2599],
+			"to": [9.49, 8.21826, 11.2399],
+			"rotation": {"angle": -45, "axis": "x", "origin": [9, 4, 11]},
+			"faces": {
+				"north": {"uv": [1.5, 6, 2, 8.5], "texture": "#0"},
+				"east": {"uv": [2, 6, 2.5, 8.5], "texture": "#0"},
+				"south": {"uv": [2.5, 6, 3, 8.5], "texture": "#0"},
+				"west": {"uv": [3, 6, 3.5, 8.5], "texture": "#0"},
+				"up": {"uv": [8, 4, 7.5, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "big_berry",
+			"from": [10.25, 4.25, 7.05],
+			"to": [7.75, 2.75, 4.55],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 4, 7]},
+			"faces": {
+				"north": {"uv": [8.5, 0, 9, 0.5], "texture": "#0"},
+				"east": {"uv": [8.5, 0, 9, 0.5], "texture": "#0"},
+				"south": {"uv": [8.5, 0, 9, 0.5], "texture": "#0"},
+				"west": {"uv": [8.5, 0, 9, 0.5], "texture": "#0"},
+				"up": {"uv": [8.5, 0, 9, 0.5], "texture": "#0"},
+				"down": {"uv": [8.5, 0, 9, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "small_berry",
+			"from": [10.25, 4.69133, 11.96874],
+			"to": [7.75, 3.19133, 9.46874],
+			"light_emission": 15,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [9.5, 4.44133, 12.46874]},
+			"faces": {
+				"north": {"uv": [8.5, 0, 9, 0.5], "texture": "#0"},
+				"east": {"uv": [8.5, 0, 9, 0.5], "texture": "#0"},
+				"south": {"uv": [8.5, 0, 9, 0.5], "texture": "#0"},
+				"west": {"uv": [8.5, 0, 9, 0.5], "texture": "#0"},
+				"up": {"uv": [8.5, 0, 9, 0.5], "texture": "#0"},
+				"down": {"uv": [8.5, 0, 9, 0.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0.5, 5, 0.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0.5, 5, 0.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-9, -3, -37],
+			"translation": [-1.5, 10, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-12, -170, 38],
+			"translation": [-1.5, 10, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [-1.25, 4.25, 0],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"translation": [-0.25, 14.75, 0.75]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0.5, 5.75, -4],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "berries",
+			"origin": [7, 0, 4],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "leaf",
+			"origin": [9, 5, 13.43532],
+			"color": 0,
+			"children": [2, 3, 4]
+		},
+		{
+			"name": "stem",
+			"origin": [9, 4, 11],
+			"color": 0,
+			"children": [5, 6, 7]
+		},
+		8,
+		9
+	]
+}

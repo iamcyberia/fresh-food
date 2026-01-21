@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/melon_slice/melon_slice1.json",
+        "assets/minecraft/items/alt/melon_slice/melon_slice2.json",
+        "assets/minecraft/items/alt/melon_slice/melon_slice3.json",
+        "assets/minecraft/items/alt/melon_slice/melon_slice4.json",
+        "assets/minecraft/items/alt/melon_slice/melon_slice5.json",
+        "assets/minecraft/items/alt/melon_slice/melon_slice6.json",
+        "assets/minecraft/items/alt/melon_slice/melon_slice7.json"
+    ]
+}

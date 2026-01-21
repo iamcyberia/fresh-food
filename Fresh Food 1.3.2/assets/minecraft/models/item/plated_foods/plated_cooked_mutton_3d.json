@@ -1,0 +1,100 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/cooked_mutton_3d",
+		"2": "item/plated_food/plate_3d",
+		"particle": "item/cooked_mutton"
+	},
+	"elements": [
+		{
+			"name": "raw_mutton1",
+			"from": [4.945, 1, 3.95985],
+			"to": [9.945, 3, 10.95985],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.055, 1, -4.04015]},
+			"faces": {
+				"north": {"uv": [0, 9, 5, 11], "texture": "#0"},
+				"east": {"uv": [0, 7, 7, 9], "texture": "#0"},
+				"south": {"uv": [5, 9, 10, 11], "texture": "#0"},
+				"west": {"uv": [7, 7, 14, 9], "texture": "#0"},
+				"up": {"uv": [5, 7, 0, 0], "texture": "#0"},
+				"down": {"uv": [10, 0, 5, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "raw_mutton2",
+			"from": [5.445, 1.5, 7.95985],
+			"to": [9.445, 2.5, 13.95985],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.945, 1, 7.95985]},
+			"faces": {
+				"east": {"uv": [0, 12, 6, 13], "texture": "#0"},
+				"south": {"uv": [6, 11, 10, 12], "texture": "#0"},
+				"west": {"uv": [0, 11, 6, 12], "texture": "#0"},
+				"up": {"uv": [10, 0, 14, 6], "texture": "#0"},
+				"down": {"uv": [10, 9, 14, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "plate",
+			"from": [2, 0, 2],
+			"to": [14, 1, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"north": {"uv": [0, 6, 6, 6.5], "texture": "#2"},
+				"east": {"uv": [6, 0, 12, 0.5], "texture": "#2"},
+				"south": {"uv": [6, 0.5, 12, 1], "texture": "#2"},
+				"west": {"uv": [6, 1, 12, 1.5], "texture": "#2"},
+				"up": {"uv": [6, 6, 0, 0], "texture": "#2"},
+				"down": {"uv": [6, 1.5, 12, 7.5], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [70, 90, 0],
+			"translation": [0, 3.75, 2.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, -90, 0],
+			"translation": [0, 3.75, 2.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -128, 0],
+			"translation": [0, 6.5, 1.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -128, 0],
+			"translation": [0, 6.5, 1.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [30, -45, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"translation": [0, 14.4, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 90, 0],
+			"translation": [0, 0, -14.08],
+			"scale": [2.01, 2.01, 2.01]
+		}
+	},
+	"groups": [
+		{
+			"name": "raw_mutton",
+			"origin": [6.945, 0, 6.95985],
+			"color": 0,
+			"children": [0, 1]
+		},
+		2
+	]
+}
