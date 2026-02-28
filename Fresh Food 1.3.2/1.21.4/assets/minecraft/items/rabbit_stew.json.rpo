@@ -1,4 +1,0 @@
-{
-  "condition": "UseModelsWhenDropped",
-  "fallback": "assets/minecraft/items/2d_sprites/rabbit_stew.json"
-}

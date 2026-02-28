@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/rotten_flesh/rotten_flesh1.json",
+        "assets/minecraft/items/alt/rotten_flesh/rotten_flesh2.json",
+        "assets/minecraft/items/alt/rotten_flesh/rotten_flesh3.json",
+        "assets/minecraft/items/alt/rotten_flesh/rotten_flesh4.json",
+        "assets/minecraft/items/alt/rotten_flesh/rotten_flesh5.json",
+        "assets/minecraft/items/alt/rotten_flesh/rotten_flesh6.json",
+        "assets/minecraft/items/alt/rotten_flesh/rotten_flesh7.json"
+    ]
+}

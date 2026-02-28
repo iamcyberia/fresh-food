@@ -1,0 +1,3 @@
+{
+    condition: "freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui"
+}

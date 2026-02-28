@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/beetroot_soup/beetroot_soup1.json",
+        "assets/minecraft/items/alt/beetroot_soup/beetroot_soup2.json",
+        "assets/minecraft/items/alt/beetroot_soup/beetroot_soup3.json",
+        "assets/minecraft/items/alt/beetroot_soup/beetroot_soup4.json",
+        "assets/minecraft/items/alt/beetroot_soup/beetroot_soup5.json",
+        "assets/minecraft/items/alt/beetroot_soup/beetroot_soup6.json",
+        "assets/minecraft/items/alt/beetroot_soup/beetroot_soup7.json"
+    ]
+}

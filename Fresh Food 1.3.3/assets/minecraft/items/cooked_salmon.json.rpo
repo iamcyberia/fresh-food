@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/cooked_salmon/cooked_salmon1.json",
+        "assets/minecraft/items/alt/cooked_salmon/cooked_salmon2.json",
+        "assets/minecraft/items/alt/cooked_salmon/cooked_salmon3.json",
+        "assets/minecraft/items/alt/cooked_salmon/cooked_salmon4.json",
+        "assets/minecraft/items/alt/cooked_salmon/cooked_salmon5.json",
+        "assets/minecraft/items/alt/cooked_salmon/cooked_salmon6.json",
+        "assets/minecraft/items/alt/cooked_salmon/cooked_salmon7.json"
+    ]
+}

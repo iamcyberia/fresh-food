@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/cooked_mutton/cooked_mutton1.json",
+        "assets/minecraft/items/alt/cooked_mutton/cooked_mutton2.json",
+        "assets/minecraft/items/alt/cooked_mutton/cooked_mutton3.json",
+        "assets/minecraft/items/alt/cooked_mutton/cooked_mutton4.json",
+        "assets/minecraft/items/alt/cooked_mutton/cooked_mutton5.json",
+        "assets/minecraft/items/alt/cooked_mutton/cooked_mutton6.json",
+        "assets/minecraft/items/alt/cooked_mutton/cooked_mutton7.json"
+    ]
+}

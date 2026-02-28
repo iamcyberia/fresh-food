@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/mutton/mutton1.json",
+        "assets/minecraft/items/alt/mutton/mutton2.json",
+        "assets/minecraft/items/alt/mutton/mutton3.json",
+        "assets/minecraft/items/alt/mutton/mutton4.json",
+        "assets/minecraft/items/alt/mutton/mutton5.json",
+        "assets/minecraft/items/alt/mutton/mutton6.json",
+        "assets/minecraft/items/alt/mutton/mutton7.json"
+    ]
+}

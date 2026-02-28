@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/tropical_fish/tropical_fish1.json",
+        "assets/minecraft/items/alt/tropical_fish/tropical_fish2.json",
+        "assets/minecraft/items/alt/tropical_fish/tropical_fish3.json",
+        "assets/minecraft/items/alt/tropical_fish/tropical_fish4.json",
+        "assets/minecraft/items/alt/tropical_fish/tropical_fish5.json",
+        "assets/minecraft/items/alt/tropical_fish/tropical_fish6.json",
+        "assets/minecraft/items/alt/tropical_fish/tropical_fish7.json"
+    ]
+}

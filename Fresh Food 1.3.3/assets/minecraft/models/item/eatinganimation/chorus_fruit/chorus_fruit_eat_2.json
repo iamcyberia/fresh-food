@@ -1,0 +1,126 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/eatinganimation/chorus_fruit/chorus_fruit_eat_1",
+		"particle": "item/food_particles/chorus_fruit"
+	},
+	"elements": [
+		{
+			"name": "flower1",
+			"from": [8.4999, 4.9999, 6.4999],
+			"to": [11.5001, 5.0001, 9.5001],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.5, 5, 8]},
+			"faces": {
+				"up": {"uv": [5.5, 6.5, 4, 5], "texture": "#0"},
+				"down": {"uv": [7, 4, 5.5, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "flower2",
+			"from": [4.4999, 4.9999, 6.4999],
+			"to": [7.5001, 5.0001, 9.5001],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [7.5, 5, 8]},
+			"faces": {
+				"up": {"uv": [7, 7, 5.5, 5.5], "texture": "#0"},
+				"down": {"uv": [4, 6.5, 2.5, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "flower3",
+			"from": [6.4999, 4.9999, 8.4999],
+			"to": [9.5001, 5.0001, 11.5001],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 5, 8.5]},
+			"faces": {
+				"up": {"uv": [8, 4, 6.5, 2.5], "texture": "#0"},
+				"down": {"uv": [5.5, 6.5, 4, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "flower4",
+			"from": [6.4999, 4.9999, 4.4999],
+			"to": [9.5001, 5.0001, 7.5001],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 5, 7.5]},
+			"faces": {
+				"up": {"uv": [4, 6.5, 2.5, 5], "texture": "#0"},
+				"down": {"uv": [6.5, 2.5, 5, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "fruit",
+			"from": [5.5, 2, 5.5],
+			"to": [10.5, 5, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 0, 6.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1.5], "texture": "#0"},
+				"east": {"uv": [0, 2.5, 2.5, 4], "texture": "#0"},
+				"south": {"uv": [2.5, 0, 5, 1.5], "texture": "#0"},
+				"west": {"uv": [2.5, 2.5, 5, 4], "texture": "#0"},
+				"up": {"uv": [2.5, 7.5, 0, 5], "texture": "#0"},
+				"down": {"uv": [7.5, 0, 5, 2.5], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 1.62, -2],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 1.62, -2],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"firstperson_righthand": {
+			"rotation": [-6, 6, -88],
+			"translation": [2, 4.75, 0.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-6, 6, -88],
+			"translation": [1.75, 4.75, 0.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 7, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"head": {
+			"translation": [0, 14.5, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 8.5, 0.99],
+			"scale": [1.75, 1.75, 1.75]
+		}
+	},
+	"groups": [
+		{
+			"name": "chorus_fruit",
+			"origin": [8, 5, 7.5],
+			"color": 0,
+			"children": [
+				{
+					"name": "flower",
+					"origin": [8, 5, 7.5],
+					"color": 0,
+					"children": [0, 1, 2, 3]
+				},
+				{
+					"name": "fruit",
+					"origin": [6.5, 0, 6.5],
+					"color": 0,
+					"children": [4]
+				}
+			]
+		}
+	]
+}

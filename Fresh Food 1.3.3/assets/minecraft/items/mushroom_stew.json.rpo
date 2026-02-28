@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/mushroom_stew/mushroom_stew1.json",
+        "assets/minecraft/items/alt/mushroom_stew/mushroom_stew2.json",
+        "assets/minecraft/items/alt/mushroom_stew/mushroom_stew3.json",
+        "assets/minecraft/items/alt/mushroom_stew/mushroom_stew4.json",
+        "assets/minecraft/items/alt/mushroom_stew/mushroom_stew5.json",
+        "assets/minecraft/items/alt/mushroom_stew/mushroom_stew6.json",
+        "assets/minecraft/items/alt/mushroom_stew/mushroom_stew7.json"
+    ]
+}
