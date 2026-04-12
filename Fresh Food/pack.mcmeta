@@ -1,0 +1,49 @@
+{
+  "pack": {
+    "description": "§7by Cyber, Ben, Hellay & Pato",
+    "pack_format": 46, 
+    "supported_formats": [46, 84], 
+    "min_format": 46, 
+    "max_format": 84
+  },
+  "overlays": {
+    "entries": [
+      { 
+        "directory": "1.21.5",
+        "formats": { 
+          "min_inclusive": 46,
+          "max_inclusive": 55
+        },
+        "min_format": 46, 
+        "max_format": 55
+      },
+            { 
+        "directory": "1.21.6",
+        "formats": { 
+          "min_inclusive": 56,
+          "max_inclusive": 65
+        },
+        "min_format": 56, 
+        "max_format": 65
+      },
+      { 
+        "directory": "1.21.9",
+        "formats": { 
+          "min_inclusive": 65,
+          "max_inclusive": 75
+        },
+        "min_format": 65, 
+        "max_format": 75
+      },
+      { 
+        "directory": "26.1",
+        "formats": { 
+          "min_inclusive": 76,
+          "max_inclusive": 84
+        },
+        "min_format": 76, 
+        "max_format": 84
+      }
+    ]
+  }
+}

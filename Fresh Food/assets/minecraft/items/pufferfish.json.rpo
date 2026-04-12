@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/pufferfish/pufferfish1.json",
+        "assets/minecraft/items/alt/pufferfish/pufferfish2.json",
+        "assets/minecraft/items/alt/pufferfish/pufferfish3.json",
+        "assets/minecraft/items/alt/pufferfish/pufferfish4.json",
+        "assets/minecraft/items/alt/pufferfish/pufferfish5.json",
+        "assets/minecraft/items/alt/pufferfish/pufferfish6.json",
+        "assets/minecraft/items/alt/pufferfish/pufferfish7.json"
+    ]
+}

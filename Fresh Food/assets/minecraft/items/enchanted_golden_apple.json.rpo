@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/enchanted_golden_apple/enchanted_golden_apple1.json",
+        "assets/minecraft/items/alt/enchanted_golden_apple/enchanted_golden_apple2.json",
+        "assets/minecraft/items/alt/enchanted_golden_apple/enchanted_golden_apple3.json",
+        "assets/minecraft/items/alt/enchanted_golden_apple/enchanted_golden_apple4.json",
+        "assets/minecraft/items/alt/enchanted_golden_apple/enchanted_golden_apple5.json",
+        "assets/minecraft/items/alt/enchanted_golden_apple/enchanted_golden_apple6.json",
+        "assets/minecraft/items/alt/enchanted_golden_apple/enchanted_golden_apple7.json"
+    ]
+}

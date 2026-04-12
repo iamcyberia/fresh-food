@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/poisonous_potato/poisonous_potato1.json",
+        "assets/minecraft/items/alt/poisonous_potato/poisonous_potato2.json",
+        "assets/minecraft/items/alt/poisonous_potato/poisonous_potato3.json",
+        "assets/minecraft/items/alt/poisonous_potato/poisonous_potato4.json",
+        "assets/minecraft/items/alt/poisonous_potato/poisonous_potato5.json",
+        "assets/minecraft/items/alt/poisonous_potato/poisonous_potato6.json",
+        "assets/minecraft/items/alt/poisonous_potato/poisonous_potato7.json"
+    ]
+}

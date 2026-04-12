@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/dried_kelp/dried_kelp1.json",
+        "assets/minecraft/items/alt/dried_kelp/dried_kelp2.json",
+        "assets/minecraft/items/alt/dried_kelp/dried_kelp3.json",
+        "assets/minecraft/items/alt/dried_kelp/dried_kelp4.json",
+        "assets/minecraft/items/alt/dried_kelp/dried_kelp5.json",
+        "assets/minecraft/items/alt/dried_kelp/dried_kelp6.json",
+        "assets/minecraft/items/alt/dried_kelp/dried_kelp7.json"
+    ]
+}

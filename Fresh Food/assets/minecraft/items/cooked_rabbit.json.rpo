@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/cooked_rabbit/cooked_rabbit1.json",
+        "assets/minecraft/items/alt/cooked_rabbit/cooked_rabbit2.json",
+        "assets/minecraft/items/alt/cooked_rabbit/cooked_rabbit3.json",
+        "assets/minecraft/items/alt/cooked_rabbit/cooked_rabbit4.json",
+        "assets/minecraft/items/alt/cooked_rabbit/cooked_rabbit5.json",
+        "assets/minecraft/items/alt/cooked_rabbit/cooked_rabbit6.json",
+        "assets/minecraft/items/alt/cooked_rabbit/cooked_rabbit7.json"
+    ]
+}

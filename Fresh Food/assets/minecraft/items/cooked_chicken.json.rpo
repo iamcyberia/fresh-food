@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/cooked_chicken/cooked_chicken1.json",
+        "assets/minecraft/items/alt/cooked_chicken/cooked_chicken2.json",
+        "assets/minecraft/items/alt/cooked_chicken/cooked_chicken3.json",
+        "assets/minecraft/items/alt/cooked_chicken/cooked_chicken4.json",
+        "assets/minecraft/items/alt/cooked_chicken/cooked_chicken5.json",
+        "assets/minecraft/items/alt/cooked_chicken/cooked_chicken6.json",
+        "assets/minecraft/items/alt/cooked_chicken/cooked_chicken7.json"
+    ]
+}

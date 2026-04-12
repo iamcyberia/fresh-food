@@ -1,0 +1,166 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Cooked Salmon",
+                "Plated Cooked Salmon",
+                "Cooked Salmon on Plate",
+                "Cooked Salmon on a Plate",
+                "Cooked Salmon Plate",
+                "Cooked Salmon Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_cooked_salmon_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cooked_salmon"
+          }
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "head",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Cooked Salmon",
+                "Plated Cooked Salmon",
+                "Cooked Salmon on Plate",
+                "Cooked Salmon on a Plate",
+                "Cooked Salmon Plate",
+                "Cooked Salmon Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_cooked_salmon_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_salmon/cooked_salmon_eat_0"
+                  }
+                },
+                {
+                  "threshold": 5.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_salmon/cooked_salmon_eat_1"
+                  }
+                },
+                {
+                  "threshold": 10.66,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_salmon/cooked_salmon_eat_2"
+                  }
+                },
+                {
+                  "threshold": 16,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_salmon/cooked_salmon_eat_3"
+                  }
+                },
+                {
+                  "threshold": 21.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/cooked_salmon/cooked_salmon_eat_4"
+                    }
+                  },
+                  {
+                    "threshold": 26.66,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/cooked_salmon/cooked_salmon_eat_5"
+                      }
+                    },
+                  {
+                  "threshold": 31.5,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/cooked_salmon_3d"
+                  }
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cooked_salmon_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Cooked Salmon",
+                "Plated Cooked Salmon",
+                "Cooked Salmon on Plate",
+                "Cooked Salmon on a Plate",
+                "Cooked Salmon Plate",
+                "Cooked Salmon Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_cooked_salmon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cooked_salmon"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cooked_salmon"
+    }
+  }
+}

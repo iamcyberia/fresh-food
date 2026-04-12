@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/chorus_fruit/chorus_fruit1.json",
+        "assets/minecraft/items/alt/chorus_fruit/chorus_fruit2.json",
+        "assets/minecraft/items/alt/chorus_fruit/chorus_fruit3.json",
+        "assets/minecraft/items/alt/chorus_fruit/chorus_fruit4.json",
+        "assets/minecraft/items/alt/chorus_fruit/chorus_fruit5.json",
+        "assets/minecraft/items/alt/chorus_fruit/chorus_fruit6.json",
+        "assets/minecraft/items/alt/chorus_fruit/chorus_fruit7.json"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/bread_3d",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/eatinganimation/bread/bread_eat_3",
+		"particle": "item/bread"
+	},
+	"elements": [
+		{
+			"from": [5, 1, 6.5],
+			"to": [7, 4, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 8]},
+			"faces": {
+				"north": {"uv": [8, 3, 9, 4.5], "texture": "#0"},
+				"east": {"uv": [2.5, 6, 3.5, 7.5], "texture": "#0"},
+				"south": {"uv": [6, 1.5, 7, 3], "texture": "#0"},
+				"west": {"uv": [8, 0, 9, 1.5], "texture": "#0"},
+				"up": {"uv": [3.5, 1, 2.5, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3.5, 3, 2.5, 4], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 1, 7.5],
+			"to": [9, 4, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 8]},
+			"faces": {
+				"north": {"uv": [7, 3, 8, 4.5], "texture": "#0"},
+				"east": {"uv": [2.5, 6, 3, 7.5], "texture": "#0"},
+				"south": {"uv": [7, 1.5, 8, 3], "texture": "#0"},
+				"west": {"uv": [8.5, 0, 9, 1.5], "texture": "#0"},
+				"up": {"uv": [3, 2, 2.5, 1], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3, 4, 2.5, 5], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 1, 8.5],
+			"to": [11, 4, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 8]},
+			"faces": {
+				"north": {"uv": [6, 3, 9, 4.5], "texture": "#0"},
+				"east": {"uv": [0, 6, 2.5, 7.5], "texture": "#0"},
+				"south": {"uv": [6, 1.5, 9, 3], "texture": "#0"},
+				"west": {"uv": [9, 0, 11.5, 1.5], "texture": "#0"},
+				"up": {"uv": [2.5, 3, 0, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [2.5, 3, 0, 6], "rotation": 270, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 4.25, 2.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 4.25, 2.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-8, 95, 0],
+			"translation": [0.25, 6.25, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-8, 95, 0],
+			"translation": [0.25, 6.25, 0.5]
+		}
+	}
+}

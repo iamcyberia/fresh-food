@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/sweet_berries/sweet_berries1.json",
+        "assets/minecraft/items/alt/sweet_berries/sweet_berries2.json",
+        "assets/minecraft/items/alt/sweet_berries/sweet_berries3.json",
+        "assets/minecraft/items/alt/sweet_berries/sweet_berries4.json",
+        "assets/minecraft/items/alt/sweet_berries/sweet_berries5.json",
+        "assets/minecraft/items/alt/sweet_berries/sweet_berries6.json",
+        "assets/minecraft/items/alt/sweet_berries/sweet_berries7.json"
+    ]
+}

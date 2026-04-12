@@ -1,0 +1,18 @@
+{
+  'id': 'freshFood',
+  'version': 12,
+  'capabilities': [
+    'FileFilter',
+    'DirFilter'
+  ],
+  'conf': {
+    'useModelsWhen': {
+      'ground': true,
+      'itemFrames': false,
+      'gui': false
+    },
+    'extraOptions': {
+      "Outlines": true
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Golden Apple",
+                "Plated Golden Apple",
+                "Golden Apple on Plate",
+                "Golden Apple on a Plate",
+                "Golden Apple Plate",
+                "Golden Apple Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_golden_apple_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/golden_apple"
+          }
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "head"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Golden Apple",
+                "Plated Golden Apple",
+                "Golden Apple on Plate",
+                "Golden Apple on a Plate",
+                "Golden Apple Plate",
+                "Golden Apple Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_golden_apple_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/golden_apple/golden_apple_eat_0"
+                  }
+                },
+                {
+                  "threshold": 6.4,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/golden_apple/golden_apple_eat_1"
+                  }
+                },
+                {
+                  "threshold": 12.8,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/golden_apple/golden_apple_eat_2"
+                  }
+                },
+                {
+                  "threshold": 19.2,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/golden_apple/golden_apple_eat_3"
+                  }
+                },
+                {
+                  "threshold": 25.6,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/golden_apple/golden_apple_eat_4"
+                  }
+                },
+                {
+                  "threshold": 31.5,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/golden_apple_3d"
+                  }
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_apple_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": [
+          "gui",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Golden Apple",
+                "Plated Golden Apple",
+                "Golden Apple on Plate",
+                "Golden Apple on a Plate",
+                "Golden Apple Plate",
+                "Golden Apple Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_golden_apple"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/golden_apple"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/golden_apple"
+    }
+  }
+}

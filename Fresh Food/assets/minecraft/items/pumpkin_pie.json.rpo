@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/pumpkin_pie/pumpkin_pie1.json",
+        "assets/minecraft/items/alt/pumpkin_pie/pumpkin_pie2.json",
+        "assets/minecraft/items/alt/pumpkin_pie/pumpkin_pie3.json",
+        "assets/minecraft/items/alt/pumpkin_pie/pumpkin_pie4.json",
+        "assets/minecraft/items/alt/pumpkin_pie/pumpkin_pie5.json",
+        "assets/minecraft/items/alt/pumpkin_pie/pumpkin_pie6.json",
+        "assets/minecraft/items/alt/pumpkin_pie/pumpkin_pie7.json"
+    ]
+}
