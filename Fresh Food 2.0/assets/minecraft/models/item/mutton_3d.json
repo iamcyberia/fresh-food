@@ -1,0 +1,85 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/mutton_3d",
+		"particle": "item/mutton_3d"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 3],
+			"to": [11, 2, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 0, 3]},
+			"faces": {
+				"north": {"uv": [5, 6, 8.5, 7], "texture": "#0"},
+				"east": {"uv": [2.5, 6, 5, 7], "texture": "#0"},
+				"south": {"uv": [1.5, 3.5, 5, 4.5], "texture": "#0"},
+				"west": {"uv": [8.5, 6, 11, 7], "texture": "#0"},
+				"up": {"uv": [8.5, 6, 5, 3.5], "texture": "#0"},
+				"down": {"uv": [8.5, 9.5, 5, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 0, 8],
+			"to": [8, 2, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [4.5, 1, 6.5, 2], "texture": "#0"},
+				"east": {"uv": [0, 6, 2.5, 7], "texture": "#0"},
+				"south": {"uv": [6.5, 0, 8.5, 1], "texture": "#0"},
+				"west": {"uv": [11, 6, 13.5, 7], "texture": "#0"},
+				"up": {"uv": [8.5, 3.5, 6.5, 1], "texture": "#0"},
+				"down": {"uv": [8.5, 12, 6.5, 9.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 5.25, 2.25],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 5.25, 2.25],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 49, 11],
+			"translation": [0.5, 6, 1.25],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 49, 11],
+			"translation": [0.5, 6, 1.25],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [30, -45, 0],
+			"translation": [0.25, 9.25, 0],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"head": {
+			"rotation": [0, -180, 0],
+			"translation": [1, 18.25, 0.75],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-90, -90, 0],
+			"translation": [2, -1.25, -9.5],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "raw_mutton",
+			"origin": [6.945, 0, 6.95985],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

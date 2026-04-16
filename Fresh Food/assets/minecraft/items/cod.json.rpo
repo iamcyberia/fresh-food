@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/cod/cod1.json",
+        "assets/minecraft/items/alt/cod/cod2.json",
+        "assets/minecraft/items/alt/cod/cod3.json",
+        "assets/minecraft/items/alt/cod/cod4.json",
+        "assets/minecraft/items/alt/cod/cod5.json",
+        "assets/minecraft/items/alt/cod/cod6.json",
+        "assets/minecraft/items/alt/cod/cod7.json"
+    ]
+}

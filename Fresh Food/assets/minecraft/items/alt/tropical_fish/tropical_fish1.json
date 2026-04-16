@@ -1,0 +1,145 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Tropical Fish",
+                "Plated Tropical Fish",
+                "Tropical Fish on Plate",
+                "Tropical Fish on a Plate",
+                "Tropical Fish Plate",
+                "Tropical Fish Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_tropical_fish_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/tropical_fish"
+          }
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "head",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Tropical Fish",
+                "Plated Tropical Fish",
+                "Tropical Fish on Plate",
+                "Tropical Fish on a Plate",
+                "Tropical Fish Plate",
+                "Tropical Fish Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_tropical_fish_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/tropical_fish/tropical_fish_eat_0"
+                  }
+                },
+                {
+                  "threshold": 10.66,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/tropical_fish/tropical_fish_eat_1"
+                  }
+                },
+                {
+                  "threshold": 21.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/tropical_fish/tropical_fish_eat_2"
+                  }
+                },
+                  {
+                  "threshold": 31.5,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/tropical_fish_3d"
+                  }
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/tropical_fish_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Tropical Fish",
+                "Plated Tropical Fish",
+                "Tropical Fish on Plate",
+                "Tropical Fish on a Plate",
+                "Tropical Fish Plate",
+                "Tropical Fish Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_tropical_fish"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/tropical_fish"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/tropical_fish"
+    }
+  }
+}

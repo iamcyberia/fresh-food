@@ -1,0 +1,159 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Melon Slice",
+                "Plated Melon Slice",
+                "Melon Slice on Plate",
+                "Melon Slice on a Plate",
+                "Melon Slice Plate",
+                "Melon Slice Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_melon_slice_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/melon_slice"
+          }
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "head"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Melon Slice",
+                "Plated Melon Slice",
+                "Melon Slice on Plate",
+                "Melon Slice on a Plate",
+                "Melon Slice Plate",
+                "Melon Slice Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_melon_slice_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/melon_slice/melon_slice_eat_0"
+                  }
+                },
+                {
+                  "threshold": 6.4,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/melon_slice/melon_slice_eat_1"
+                  }
+                },
+                {
+                  "threshold": 12.8,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/melon_slice/melon_slice_eat_2"
+                  }
+                },
+                {
+                  "threshold": 19.2,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/melon_slice/melon_slice_eat_3"
+                  }
+                },
+                {
+                  "threshold": 25.6,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/melon_slice/melon_slice_eat_4"
+                  }
+                },
+                {
+                  "threshold": 31.5,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/melon_slice_3d"
+                  }
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/melon_slice_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": [
+          "gui",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Melon Slice",
+                "Plated Melon Slice",
+                "Melon Slice on Plate",
+                "Melon Slice on a Plate",
+                "Melon Slice Plate",
+                "Melon Slice Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_melon_slice"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/melon_slice"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/melon_slice"
+    }
+  }
+}

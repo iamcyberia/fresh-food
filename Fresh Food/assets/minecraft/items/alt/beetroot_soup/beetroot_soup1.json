@@ -1,0 +1,215 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Beetroot Soup",
+                "Plated Beetroot Soup",
+                "Beetroot Soup on Plate",
+                "Beetroot Soup on a Plate",
+                "Beetroot Soup Plate",
+                "Beetroot Soup Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_beetroot_soup_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/beetroot_soup"
+          }
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "head",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Beetroot Soup",
+                "Plated Beetroot Soup",
+                "Beetroot Soup on Plate",
+                "Beetroot Soup on a Plate",
+                "Beetroot Soup Plate",
+                "Beetroot Soup Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_beetroot_soup_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_0"
+                  }
+                },
+                {
+                  "threshold": 8,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_1"
+                  }
+                },
+                {
+                  "threshold": 10,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_2"
+                  }
+                },
+                {
+                  "threshold": 12,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_3"
+                  }
+                },
+                {
+                  "threshold": 14,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_4"
+                  }
+                },
+                {
+                  "threshold": 16,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_5"
+                  }
+                },
+                {
+                  "threshold": 18,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_6"
+                  }
+                },
+                {
+                  "threshold": 20,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_7"
+                  }
+                },
+                {
+                  "threshold": 22,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_8"
+                  }
+                },
+                {
+                  "threshold": 24,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_9"
+                  }
+                },
+                {
+                  "threshold": 26,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_10"
+                  }
+                },
+                {
+                  "threshold": 28,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_11"
+                  }
+                },
+                {
+                  "threshold": 30,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/eatinganimation/beetroot_soup/beetroot_soup_eat_12"
+                  }
+                },
+                {
+                  "threshold": 31.5,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/beetroot_soup_3d"
+                  }
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/beetroot_soup_3d"
+            }
+          }
+        }
+      },
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Beetroot Soup",
+                "Plated Beetroot Soup",
+                "Beetroot Soup on Plate",
+                "Beetroot Soup on a Plate",
+                "Beetroot Soup Plate",
+                "Beetroot Soup Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/plated_foods/plated_beetroot_soup"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/beetroot_soup"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/beetroot_soup"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/beetroot_3d",
+	"texture_size": [32, 32],
+	"textures": {
+		"2": "item/eatinganimation/beetroot/beetroot_eat_1",
+		"particle": "item/beetroot"
+	},
+	"elements": [
+		{
+			"name": "stem2",
+			"from": [6.4999, 8.9999, 8.0999],
+			"to": [9.5001, 14.0001, 8.1001],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [7.5, 2.5, 9, 0], "texture": "#2"},
+				"south": {"uv": [7.5, 2.5, 9, 0], "texture": "#2"}
+			}
+		},
+		{
+			"name": "stem3",
+			"from": [6.4999, 8.9999, 7.8999],
+			"to": [9.5001, 14.0001, 7.9001],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [9, 2.5, 10.5, 0], "texture": "#2"},
+				"south": {"uv": [9, 2.5, 10.5, 0], "texture": "#2"}
+			}
+		},
+		{
+			"name": "bulb2",
+			"from": [5.5, 5.5, 5.5],
+			"to": [10.5, 9.5, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.5, 4.5, -1.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 2], "texture": "#2"},
+				"east": {"uv": [0, 2.5, 2.5, 4.5], "texture": "#2"},
+				"south": {"uv": [2.5, 0, 5, 2], "texture": "#2"},
+				"west": {"uv": [2.5, 2.5, 5, 4.5], "texture": "#2"},
+				"up": {"uv": [0, 5, 2.5, 7.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [5, 2.5, 7.5, 0], "rotation": 180, "texture": "#2"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [87, -171, 97],
+			"translation": [0.5, 3.25, 1.5],
+			"scale": [0.89, 0.89, 0.89]
+		},
+		"firstperson_lefthand": {
+			"rotation": [87, -171, 98],
+			"translation": [0.5, 3.25, 1.25],
+			"scale": [0.89, 0.89, 0.89]
+		},
+		"ground": {
+			"translation": [0, 2.25, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"gui": {
+			"rotation": [30, -45, 0],
+			"translation": [0, 0.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"translation": [0, 9.75, 0]
+		},
+		"fixed": {
+			"translation": [0, 0.25, 0.75],
+			"scale": [1.3, 1.3, 1.3]
+		}
+	},
+	"groups": [
+		{
+			"name": "beetroot",
+			"origin": [8, 12, 10.5],
+			"color": 0,
+			"children": [
+				{
+					"name": "stem",
+					"origin": [8, 12, 10.5],
+					"color": 0,
+					"children": [0, 1]
+				},
+				{
+					"name": "bulb",
+					"origin": [-1.5, 4, 1],
+					"color": 0,
+					"children": [2]
+				}
+			]
+		}
+	]
+}

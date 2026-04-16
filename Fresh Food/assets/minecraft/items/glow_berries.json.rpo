@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/glow_berries/glow_berries1.json",
+        "assets/minecraft/items/alt/glow_berries/glow_berries2.json",
+        "assets/minecraft/items/alt/glow_berries/glow_berries3.json",
+        "assets/minecraft/items/alt/glow_berries/glow_berries4.json",
+        "assets/minecraft/items/alt/glow_berries/glow_berries5.json",
+        "assets/minecraft/items/alt/glow_berries/glow_berries6.json",
+        "assets/minecraft/items/alt/glow_berries/glow_berries7.json"
+    ]
+}

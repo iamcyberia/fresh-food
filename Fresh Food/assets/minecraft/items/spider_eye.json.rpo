@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/spider_eye/spider_eye1.json",
+        "assets/minecraft/items/alt/spider_eye/spider_eye2.json",
+        "assets/minecraft/items/alt/spider_eye/spider_eye3.json",
+        "assets/minecraft/items/alt/spider_eye/spider_eye4.json",
+        "assets/minecraft/items/alt/spider_eye/spider_eye5.json",
+        "assets/minecraft/items/alt/spider_eye/spider_eye6.json",
+        "assets/minecraft/items/alt/spider_eye/spider_eye7.json"
+    ]
+}

@@ -1,0 +1,94 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "item/tropical_fish_3d",
+		"particle": "item/tropical_fish"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 6],
+			"to": [10, 2, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 1, 8]},
+			"faces": {
+				"north": {"uv": [6, 9, 12, 11], "texture": "#1"},
+				"east": {"uv": [12, 9, 16, 11], "texture": "#1"},
+				"south": {"uv": [6, 7, 12, 9], "texture": "#1"},
+				"west": {"uv": [2, 9, 6, 11], "texture": "#1"},
+				"up": {"uv": [12, 6, 6, 2], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [12, 15, 6, 11], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [10, 1, 6],
+			"to": [12, 1, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 1, 8]},
+			"faces": {
+				"up": {"uv": [14, 6, 12, 2], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [12, 6, 14, 2], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.5, 1, 5],
+			"to": [8.5, 1, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 1, 6]},
+			"faces": {
+				"up": {"uv": [10, 2, 8, 1], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [8, 2, 10, 1], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 1, 10],
+			"to": [8, 1, 11],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7, 1, 10]},
+			"faces": {
+				"up": {"uv": [9, 7, 7, 6], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [7, 7, 9, 6], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 6, 2.75],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 6, 2.75],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-105.39, 24.88, 147.26],
+			"translation": [0, 5.25, 2.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-105.39, 24.88, 147.26],
+			"translation": [0, 5.25, 2.75]
+		},
+		"ground": {
+			"translation": [0, 3.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [-110.2, 15, 171.65],
+			"translation": [-0.75, 3.25, 1],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"rotation": [0, 13, 0],
+			"translation": [-0.5, 16.25, 0.25],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [-0.5, 0, -11],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"on_shelf": {
+			"rotation": [90, 90, 0],
+			"translation": [0, 0, 13.75],
+			"scale": [2.25, 2.25, 2.25]
+		}
+	}
+}

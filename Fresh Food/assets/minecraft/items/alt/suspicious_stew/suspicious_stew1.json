@@ -1,0 +1,2678 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "fixed",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:suspicious_stew_effects",
+          "cases": [
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:blindness",
+                    "duration": 220
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_blindness_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_blindness_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:fire_resistance",
+                    "duration": 60
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_fire_resistance_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_fire_resistance_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:saturation",
+                    "duration": 7
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_saturation_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_saturation_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:jump_boost",
+                    "duration": 100
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_jump_boost_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_jump_boost_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:poison",
+                    "duration": 220
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_poison_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_poison_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:regeneration",
+                    "duration": 140
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_regeneration_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_regeneration_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 140
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_nausea_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_nausea_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:night_vision",
+                    "duration": 100
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_night_vision_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_night_vision_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:weakness",
+                    "duration": 140
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_weakness_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_weakness_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:wither",
+                    "duration": 140
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_wither_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_wither_2d"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/plated_foods/plated_suspicious_stew_3d"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/suspicious_stew"
+            }
+          }
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "head",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:suspicious_stew_effects",
+          "cases": [
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:blindness",
+                    "duration": 220
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_blindness_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:using_item",
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "entries": [
+                      {
+                        "threshold": 0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_0"
+                        }
+                      },
+                      {
+                        "threshold": 8,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_1"
+                        }
+                      },
+                      {
+                        "threshold": 10,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_2"
+                        }
+                      },
+                      {
+                        "threshold": 12,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_3"
+                        }
+                      },
+                      {
+                        "threshold": 14,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_4"
+                        }
+                      },
+                      {
+                        "threshold": 16,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_5"
+                        }
+                      },
+                      {
+                        "threshold": 18,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_6"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_7"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_8"
+                        }
+                      },
+                      {
+                        "threshold": 24,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_9"
+                        }
+                      },
+                      {
+                        "threshold": 26,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_10"
+                        }
+                      },
+                      {
+                        "threshold": 28,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_11"
+                        }
+                      },
+                      {
+                        "threshold": 30,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_blindness/suspicious_stew_blindness_eat_12"
+                        }
+                      },
+                      {
+                        "threshold": 31.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/suspicious_stew_blindness_3d"
+                        }
+                      }
+                    ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "item/suspicious_stew_blindness_3d"
+                  }
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:fire_resistance",
+                    "duration": 60
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_fire_resistance_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:using_item",
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "entries": [
+                      {
+                        "threshold": 0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_0"
+                        }
+                      },
+                      {
+                        "threshold": 8,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_1"
+                        }
+                      },
+                      {
+                        "threshold": 10,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_2"
+                        }
+                      },
+                      {
+                        "threshold": 12,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_3"
+                        }
+                      },
+                      {
+                        "threshold": 14,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_4"
+                        }
+                      },
+                      {
+                        "threshold": 16,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_5"
+                        }
+                      },
+                      {
+                        "threshold": 18,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_6"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_7"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_8"
+                        }
+                      },
+                      {
+                        "threshold": 24,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_9"
+                        }
+                      },
+                      {
+                        "threshold": 26,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_10"
+                        }
+                      },
+                      {
+                        "threshold": 28,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_11"
+                        }
+                      },
+                      {
+                        "threshold": 30,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_fire_resistance/suspicious_stew_fire_resistance_eat_12"
+                        }
+                      },
+                      {
+                        "threshold": 31.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/suspicious_stew_fire_resistance_3d"
+                        }
+                      }
+                    ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "item/suspicious_stew_fire_resistance_3d"
+                  }
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:saturation",
+                    "duration": 7
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_saturation_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:using_item",
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "entries": [
+                      {
+                        "threshold": 0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_0"
+                        }
+                      },
+                      {
+                        "threshold": 8,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_1"
+                        }
+                      },
+                      {
+                        "threshold": 10,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_2"
+                        }
+                      },
+                      {
+                        "threshold": 12,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_3"
+                        }
+                      },
+                      {
+                        "threshold": 14,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_4"
+                        }
+                      },
+                      {
+                        "threshold": 16,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_5"
+                        }
+                      },
+                      {
+                        "threshold": 18,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_6"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_7"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_8"
+                        }
+                      },
+                      {
+                        "threshold": 24,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_9"
+                        }
+                      },
+                      {
+                        "threshold": 26,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_10"
+                        }
+                      },
+                      {
+                        "threshold": 28,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_11"
+                        }
+                      },
+                      {
+                        "threshold": 30,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_saturation/suspicious_stew_saturation_eat_12"
+                        }
+                      },
+                      {
+                        "threshold": 31.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/suspicious_stew_saturation_3d"
+                        }
+                      }
+                    ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "item/suspicious_stew_saturation_3d"
+                  }
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:jump_boost",
+                    "duration": 100
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_jump_boost_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:using_item",
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "entries": [
+                      {
+                        "threshold": 0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_0"
+                        }
+                      },
+                      {
+                        "threshold": 8,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_1"
+                        }
+                      },
+                      {
+                        "threshold": 10,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_2"
+                        }
+                      },
+                      {
+                        "threshold": 12,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_3"
+                        }
+                      },
+                      {
+                        "threshold": 14,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_4"
+                        }
+                      },
+                      {
+                        "threshold": 16,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_5"
+                        }
+                      },
+                      {
+                        "threshold": 18,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_5"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_6"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_7"
+                        }
+                      },
+                      {
+                        "threshold": 24,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_8"
+                        }
+                      },
+                      {
+                        "threshold": 26,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_9"
+                        }
+                      },
+                      {
+                        "threshold": 28,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_10"
+                        }
+                      },
+                      {
+                        "threshold": 30,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_jump_boost/suspicious_stew_jump_boost_eat_11"
+                        }
+                      },
+                      {
+                        "threshold": 31.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/suspicious_stew_jump_boost_3d"
+                        }
+                      }
+                    ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "item/suspicious_stew_jump_boost_3d"
+                  }
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:poison",
+                    "duration": 220
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_poison_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:using_item",
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "entries": [
+                      {
+                        "threshold": 0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_0"
+                        }
+                      },
+                      {
+                        "threshold": 8,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_1"
+                        }
+                      },
+                      {
+                        "threshold": 10,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_2"
+                        }
+                      },
+                      {
+                        "threshold": 12,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_3"
+                        }
+                      },
+                      {
+                        "threshold": 14,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_4"
+                        }
+                      },
+                      {
+                        "threshold": 16,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_5"
+                        }
+                      },
+                      {
+                        "threshold": 18,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_6"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_7"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_8"
+                        }
+                      },
+                      {
+                        "threshold": 24,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_9"
+                        }
+                      },
+                      {
+                        "threshold": 26,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_10"
+                        }
+                      },
+                      {
+                        "threshold": 28,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_11"
+                        }
+                      },
+                      {
+                        "threshold": 30,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_poison/suspicious_stew_poison_eat_12"
+                        }
+                      },
+                      {
+                        "threshold": 31.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/suspicious_stew_poison_3d"
+                        }
+                      }
+                    ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "item/suspicious_stew_poison_3d"
+                  }
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:regeneration",
+                    "duration": 140
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_regeneration_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:using_item",
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "entries": [
+                      {
+                        "threshold": 0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_0"
+                        }
+                      },
+                      {
+                        "threshold": 8,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_1"
+                        }
+                      },
+                      {
+                        "threshold": 10,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_2"
+                        }
+                      },
+                      {
+                        "threshold": 12,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_3"
+                        }
+                      },
+                      {
+                        "threshold": 14,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_4"
+                        }
+                      },
+                      {
+                        "threshold": 16,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_5"
+                        }
+                      },
+                      {
+                        "threshold": 18,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_6"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_7"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_8"
+                        }
+                      },
+                      {
+                        "threshold": 24,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_9"
+                        }
+                      },
+                      {
+                        "threshold": 26,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_10"
+                        }
+                      },
+                      {
+                        "threshold": 28,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_11"
+                        }
+                      },
+                      {
+                        "threshold": 30,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_regeneration/suspicious_stew_regeneration_eat_12"
+                        }
+                      },
+                      {
+                        "threshold": 31.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/suspicious_stew_regeneration_3d"
+                        }
+                      }
+                    ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "item/suspicious_stew_regeneration_3d"
+                  }
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 140
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_nausea_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:using_item",
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "entries": [
+                      {
+                        "threshold": 0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_0"
+                        }
+                      },
+                      {
+                        "threshold": 8,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_1"
+                        }
+                      },
+                      {
+                        "threshold": 10,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_2"
+                        }
+                      },
+                      {
+                        "threshold": 12,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_3"
+                        }
+                      },
+                      {
+                        "threshold": 14,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_4"
+                        }
+                      },
+                      {
+                        "threshold": 16,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_5"
+                        }
+                      },
+                      {
+                        "threshold": 18,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_6"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_7"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_8"
+                        }
+                      },
+                      {
+                        "threshold": 24,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_9"
+                        }
+                      },
+                      {
+                        "threshold": 26,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_10"
+                        }
+                      },
+                      {
+                        "threshold": 28,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_11"
+                        }
+                      },
+                      {
+                        "threshold": 30,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_nausea/suspicious_stew_nausea_eat_12"
+                        }
+                      },
+                      {
+                        "threshold": 31.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "minecraft:item/suspicious_stew_nausea_3d"
+                        }
+                      }
+                    ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/suspicious_stew_nausea_3d"
+                  }
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:night_vision",
+                    "duration": 100
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_night_vision_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:using_item",
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "entries": [
+                      {
+                        "threshold": 0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_0"
+                        }
+                      },
+                      {
+                        "threshold": 8,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_1"
+                        }
+                      },
+                      {
+                        "threshold": 10,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_2"
+                        }
+                      },
+                      {
+                        "threshold": 12,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_3"
+                        }
+                      },
+                      {
+                        "threshold": 14,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_4"
+                        }
+                      },
+                      {
+                        "threshold": 16,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_5"
+                        }
+                      },
+                      {
+                        "threshold": 18,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_6"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_7"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_8"
+                        }
+                      },
+                      {
+                        "threshold": 24,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_9"
+                        }
+                      },
+                      {
+                        "threshold": 26,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_10"
+                        }
+                      },
+                      {
+                        "threshold": 28,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_11"
+                        }
+                      },
+                      {
+                        "threshold": 30,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_night_vision/suspicious_stew_night_vision_eat_12"
+                        }
+                      },
+                      {
+                        "threshold": 31.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "minecraft:item/suspicious_stew_night_vision_3d"
+                        }
+                      }
+                    ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/suspicious_stew_night_vision_3d"
+                  }
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:weakness",
+                    "duration": 140
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_weakness_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:using_item",
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "entries": [
+                      {
+                        "threshold": 0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_0"
+                        }
+                      },
+                      {
+                        "threshold": 8,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_1"
+                        }
+                      },
+                      {
+                        "threshold": 10,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_2"
+                        }
+                      },
+                      {
+                        "threshold": 12,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_3"
+                        }
+                      },
+                      {
+                        "threshold": 14,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_4"
+                        }
+                      },
+                      {
+                        "threshold": 16,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_5"
+                        }
+                      },
+                      {
+                        "threshold": 18,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_6"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_7"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_8"
+                        }
+                      },
+                      {
+                        "threshold": 24,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_9"
+                        }
+                      },
+                      {
+                        "threshold": 26,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_10"
+                        }
+                      },
+                      {
+                        "threshold": 28,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_11"
+                        }
+                      },
+                      {
+                        "threshold": 30,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_weakness/suspicious_stew_weakness_eat_12"
+                        }
+                      },
+                      {
+                        "threshold": 31.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "minecraft:item/suspicious_stew_weakness_3d"
+                        }
+                      }
+                    ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/suspicious_stew_weakness_3d"
+                  }
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:wither",
+                    "duration": 140
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/plated_foods/plated_suspicious_stew_wither_3d"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:using_item",
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "entries": [
+                      {
+                        "threshold": 0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_0"
+                        }
+                      },
+                      {
+                        "threshold": 8,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_1"
+                        }
+                      },
+                      {
+                        "threshold": 10,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_2"
+                        }
+                      },
+                      {
+                        "threshold": 12,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_3"
+                        }
+                      },
+                      {
+                        "threshold": 14,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_4"
+                        }
+                      },
+                      {
+                        "threshold": 16,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_5"
+                        }
+                      },
+                      {
+                        "threshold": 18,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_6"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_7"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_8"
+                        }
+                      },
+                      {
+                        "threshold": 24,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_9"
+                        }
+                      },
+                      {
+                        "threshold": 26,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_10"
+                        }
+                      },
+                      {
+                        "threshold": 28,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_11"
+                        }
+                      },
+                      {
+                        "threshold": 30,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "item/eatinganimation/suspicious_stew_wither/suspicious_stew_wither_eat_12"
+                        }
+                      },
+                      {
+                        "threshold": 31.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "minecraft:item/suspicious_stew_wither_3d"
+                        }
+                      }
+                    ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/suspicious_stew_wither_3d"
+                  }
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/plated_foods/plated_suspicious_stew_3d"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_true": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:use_duration",
+                "entries": [
+                  {
+                    "threshold": 0,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_0"
+                    }
+                  },
+                  {
+                    "threshold": 8,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_1"
+                    }
+                  },
+                  {
+                    "threshold": 10,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_2"
+                    }
+                  },
+                  {
+                    "threshold": 12,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_3"
+                    }
+                  },
+                  {
+                    "threshold": 14,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_4"
+                    }
+                  },
+                  {
+                    "threshold": 16,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_5"
+                    }
+                  },
+                  {
+                    "threshold": 18,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_6"
+                    }
+                  },
+                  {
+                    "threshold": 20,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_7"
+                    }
+                  },
+                  {
+                    "threshold": 22,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_8"
+                    }
+                  },
+                  {
+                    "threshold": 24,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_9"
+                    }
+                  },
+                  {
+                    "threshold": 26,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_10"
+                    }
+                  },
+                  {
+                    "threshold": 28,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_11"
+                    }
+                  },
+                  {
+                    "threshold": 30,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/eatinganimation/suspicious_stew/suspicious_stew_eat_12"
+                    }
+                  },
+                  {
+                    "threshold": 31.5,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/suspicious_stew_3d"
+                    }
+                  }
+                ]
+              },
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/suspicious_stew_3d"
+              }
+            }
+          }
+        }
+      },
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:suspicious_stew_effects",
+          "cases": [
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:blindness",
+                    "duration": 220
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/plated_foods/plated_suspicious_stew_blindness"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_blindness_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:fire_resistance",
+                    "duration": 60
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/plated_foods/plated_suspicious_stew_fire_resistance"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_fire_resistance_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:saturation",
+                    "duration": 7
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/plated_foods/plated_suspicious_stew_saturation"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_saturation_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:jump_boost",
+                    "duration": 100
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/plated_foods/plated_suspicious_stew_jump_boost"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_jump_boost_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:poison",
+                    "duration": 220
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/plated_foods/plated_suspicious_stew_poison"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_poison_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:regeneration",
+                    "duration": 140
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/plated_foods/plated_suspicious_stew_regeneration"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_regeneration_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 140
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/plated_foods/plated_suspicious_stew_nausea"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_nausea_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:night_vision",
+                    "duration": 100
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/plated_foods/plated_suspicious_stew_night_vision"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_night_vision_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:weakness",
+                    "duration": 140
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/plated_foods/plated_suspicious_stew_weakness"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_weakness_2d"
+                }
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "id": "minecraft:wither",
+                    "duration": 140
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                  {
+                    "when": [
+                      "Plate of Suspicious Stew",
+                      "Plated Suspicious Stew",
+                      "Suspicious Stew on a Plate",
+                      "Suspicious Stew Plate",
+                      "Suspicious Stew Plated"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/plated_foods/plated_suspicious_stew_wither"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/suspicious_stew_wither_2d"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/plated_foods/plated_suspicious_stew"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/suspicious_stew"
+            }
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:suspicious_stew_effects",
+      "cases": [
+        {
+          "when": [
+            [
+              {
+                "id": "minecraft:blindness",
+                "duration": 220
+              }
+            ]
+          ],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/plated_foods/plated_suspicious_stew_blindness"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/suspicious_stew_blindness_2d"
+            }
+          }
+        },
+        {
+          "when": [
+            [
+              {
+                "id": "minecraft:fire_resistance",
+                "duration": 60
+              }
+            ]
+          ],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/plated_foods/plated_suspicious_stew_fire_resistance"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/suspicious_stew_fire_resistance_2d"
+            }
+          }
+        },
+        {
+          "when": [
+            [
+              {
+                "id": "minecraft:saturation",
+                "duration": 7
+              }
+            ]
+          ],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/plated_foods/plated_suspicious_stew_saturation"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/suspicious_stew_saturation_2d"
+            }
+          }
+        },
+        {
+          "when": [
+            [
+              {
+                "id": "minecraft:jump_boost",
+                "duration": 100
+              }
+            ]
+          ],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/plated_foods/plated_suspicious_stew_jump_boost"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/suspicious_stew_jump_boost_2d"
+            }
+          }
+        },
+        {
+          "when": [
+            [
+              {
+                "id": "minecraft:poison",
+                "duration": 220
+              }
+            ]
+          ],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/plated_foods/plated_suspicious_stew_poison"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/suspicious_stew_poison_2d"
+            }
+          }
+        },
+        {
+          "when": [
+            [
+              {
+                "id": "minecraft:regeneration",
+                "duration": 140
+              }
+            ]
+          ],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/plated_foods/plated_suspicious_stew_regeneration"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/suspicious_stew_regeneration_2d"
+            }
+          }
+        },
+        {
+          "when": [
+            [
+              {
+                "id": "minecraft:nausea",
+                "duration": 140
+              }
+            ]
+          ],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/plated_foods/plated_suspicious_stew_nausea"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/suspicious_stew_nausea_2d"
+            }
+          }
+        },
+        {
+          "when": [
+            [
+              {
+                "id": "minecraft:night_vision",
+                "duration": 100
+              }
+            ]
+          ],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/plated_foods/plated_suspicious_stew_night_vision"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/suspicious_stew_night_vision_2d"
+            }
+          }
+        },
+        {
+          "when": [
+            [
+              {
+                "id": "minecraft:weakness",
+                "duration": 140
+              }
+            ]
+          ],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/plated_foods/plated_suspicious_stew_weakness"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/suspicious_stew_weakness_2d"
+            }
+          }
+        },
+        {
+          "when": [
+            [
+              {
+                "id": "minecraft:wither",
+                "duration": 140
+              }
+            ]
+          ],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:custom_name",
+            "cases": [
+              {
+                "when": [
+                  "Plate of Suspicious Stew",
+                  "Plated Suspicious Stew",
+                  "Suspicious Stew on a Plate",
+                  "Suspicious Stew Plate",
+                  "Suspicious Stew Plated"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/plated_foods/plated_suspicious_stew_wither"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/suspicious_stew_wither_2d"
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/suspicious_stew"
+      }
+    }
+  }
+}

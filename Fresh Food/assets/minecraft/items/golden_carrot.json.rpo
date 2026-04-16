@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/golden_carrot/golden_carrot1.json",
+        "assets/minecraft/items/alt/golden_carrot/golden_carrot2.json",
+        "assets/minecraft/items/alt/golden_carrot/golden_carrot3.json",
+        "assets/minecraft/items/alt/golden_carrot/golden_carrot4.json",
+        "assets/minecraft/items/alt/golden_carrot/golden_carrot5.json",
+        "assets/minecraft/items/alt/golden_carrot/golden_carrot6.json",
+        "assets/minecraft/items/alt/golden_carrot/golden_carrot7.json"
+    ]
+}

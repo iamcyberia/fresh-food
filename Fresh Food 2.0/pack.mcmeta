@@ -1,0 +1,40 @@
+{
+  "pack": {
+    "description": "Beautiful 3D food and Animations",
+    "pack_format": 46, 
+    "supported_formats": [46, 75], 
+    "min_format": 46, 
+    "max_format": 75
+  },
+  "overlays": {
+    "entries": [
+      { 
+        "directory": "1.21.5",
+        "formats": { 
+          "min_inclusive": 46,
+          "max_inclusive": 55
+        },
+        "min_format": 46, 
+        "max_format": 55
+      },
+            { 
+        "directory": "1.21.6",
+        "formats": { 
+          "min_inclusive": 56,
+          "max_inclusive": 65
+        },
+        "min_format": 56, 
+        "max_format": 65
+      },
+      { 
+        "directory": "1.21.9",
+        "formats": { 
+          "min_inclusive": 65,
+          "max_inclusive": 75
+        },
+        "min_format": 65, 
+        "max_format": 75
+      }
+    ]
+  }
+}

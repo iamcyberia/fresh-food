@@ -1,0 +1,12 @@
+{
+    condition: "!freshFood.useModelsWhen.ground & !freshFood.useModelsWhen.itemFrames & !freshFood.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/alt/porkchop/porkchop1.json",
+        "assets/minecraft/items/alt/porkchop/porkchop2.json",
+        "assets/minecraft/items/alt/porkchop/porkchop3.json",
+        "assets/minecraft/items/alt/porkchop/porkchop4.json",
+        "assets/minecraft/items/alt/porkchop/porkchop5.json",
+        "assets/minecraft/items/alt/porkchop/porkchop6.json",
+        "assets/minecraft/items/alt/porkchop/porkchop7.json"
+    ]
+}
